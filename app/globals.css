@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: #000;
+}
+
+body {
+  color: white;
+  font-feature-settings: "liga" 1;
+}
+
+::selection {
+  background: #3BA4FF;
+  color: black;
+}
